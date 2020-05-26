@@ -1,0 +1,2 @@
+# InfinityAdventure
+End? Just begin.
