@@ -1,2 +1,2 @@
-# InfinityAdventure
-End? Just begin.
+# InfinityAdventure/无尽冒险
+// Todo
