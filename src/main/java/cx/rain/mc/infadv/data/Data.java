@@ -3,6 +3,7 @@ package cx.rain.mc.infadv.data;
 import cx.rain.mc.infadv.InfinityAdventure;
 import cx.rain.mc.infadv.data.provider.ProviderBlockState;
 import cx.rain.mc.infadv.data.provider.ProviderItemModel;
+import cx.rain.mc.infadv.data.provider.language.ProviderLanguageZHCN;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,7 +23,8 @@ public class Data {
         }
 
         if (event.includeServer()) {
-
         }
+
+        generator.addProvider(new ProviderLanguageZHCN(generator));
     }
 }

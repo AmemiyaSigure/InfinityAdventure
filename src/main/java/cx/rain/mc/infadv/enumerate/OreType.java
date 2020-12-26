@@ -2,6 +2,7 @@ package cx.rain.mc.infadv.enumerate;
 
 public enum OreType {
     Silver("silver"),
+    Ruby("ruby"),
     Mithril("mithril"),
     Adamantine("adamantine"),
     Aquamarine("aquamarine");

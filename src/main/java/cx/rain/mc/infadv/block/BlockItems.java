@@ -19,6 +19,7 @@ public class BlockItems {
 
     // BlockItems below here.
     public static final RegistryObject<Item> SILVER_ORE = BLOCK_ITEMS.register("silver_ore", () -> new BlockItem(Blocks.SILVER_ORE.get(), new Item.Properties().group(Groups.ORES).setNoRepair()));
+    public static final RegistryObject<Item> RUBY_ORE = BLOCK_ITEMS.register("ruby_ore", () -> new BlockItem(Blocks.RUBY_ORE.get(), new Item.Properties().group(Groups.ORES).setNoRepair()));
     public static final RegistryObject<Item> MITHRIL_ORE = BLOCK_ITEMS.register("mithril_ore", () -> new BlockItem(Blocks.MITHRIL_ORE.get(), new Item.Properties().group(Groups.ORES).setNoRepair()));
     public static final RegistryObject<Item> ADAMANTINE_ORE = BLOCK_ITEMS.register("adamantine_ore", () -> new BlockItem(Blocks.ADAMANTINE_ORE.get(), new Item.Properties().group(Groups.ORES).setNoRepair()));
     public static final RegistryObject<Item> AQUAMARINE_ORE = BLOCK_ITEMS.register("aquamarine_ore", () -> new BlockItem(Blocks.AQUAMARINE_ORE.get(), new Item.Properties().group(Groups.ORES).setNoRepair()));

@@ -29,9 +29,9 @@ displayURL="https://github.com/AmemiyaSigure/InfinityAdventure" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 #logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-#credits="Thanks for this example mod goes to Java" #optional
+credits="SaltedFish Club." #optional
 # A text field displayed in the mod UI
-authors="AmemiyaShigure(QiuYuLuo/Infinity_rain)" #optional
+authors="AmemiyaShigure, 尤里的猫" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 Waiting for explorer...

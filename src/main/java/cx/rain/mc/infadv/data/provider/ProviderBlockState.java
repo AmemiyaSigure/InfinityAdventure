@@ -14,6 +14,7 @@ public class ProviderBlockState extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         simpleBlock(Blocks.SILVER_ORE.get());
+        simpleBlock(Blocks.RUBY_ORE.get());
         simpleBlock(Blocks.MITHRIL_ORE.get());
         simpleBlock(Blocks.ADAMANTINE_ORE.get());
         simpleBlock(Blocks.AQUAMARINE_ORE.get());

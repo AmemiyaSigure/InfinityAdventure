@@ -1,0 +1,13 @@
+{
+  "block.infadv.adamantine_ore": "\u7EEE\u9E43\u567E\u942D\u8DE8\u7176",
+  "block.infadv.aquamarine_ore": "\u5A34\u75AF\u6451\u7039\u6FC8\u7176\u942D\u8DE8\u7176",
+  "block.infadv.mithril_ore": "\u7EC9\u6A40\u6471\u942D\u8DE8\u7176",
+  "block.infadv.ruby_ore": "\u7EFE\u3220\u7582\u942D\u5D07\u7186\u942D\uFFFD",
+  "block.infadv.silver_ore": "\u95BE\u5241\u7186\u942D\uFFFD",
+  "item.infadv.adamantine_ingot": "\u7EEE\u9E43\u567E\u95BF\uFFFD",
+  "item.infadv.aquamarine": "\u5A34\u75AF\u6451\u7039\u6FC8\u7176",
+  "item.infadv.mithril_ingot": "\u7EC9\u6A40\u6471\u95BF\uFFFD",
+  "item.infadv.ruby": "\u7EFE\u3220\u7582\u942D\uFFFD",
+  "item.infadv.silver_ingot": "\u95BE\u5815\u656A",
+  "itemGroup.infadv_ores": "\u93C3\u72B2\u6556\u9350\u6397\u6AD3 | \u942D\u8DE8\u7176"
+}
