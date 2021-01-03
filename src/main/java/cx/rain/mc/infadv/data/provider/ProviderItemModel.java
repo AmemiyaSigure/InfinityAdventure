@@ -6,13 +6,20 @@ import cx.rain.mc.infadv.item.Items;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class ProviderItemModel extends ItemModelProvider {
     public ProviderItemModel(DataGenerator generator, ExistingFileHelper existingHelper) {
         super(generator, InfinityAdventure.MODID, existingHelper);
+    }
+
+    protected void simpleItem(Item item, ResourceLocation texture) {
+        singleTexture(item.getRegistryName().getPath(), mcLoc("generated"), "layer0", texture);
+    }
+
+    protected void simpleBlockItem(Item blockItem, ResourceLocation texture) {
+        cubeAll(blockItem.getRegistryName().getPath(), texture);
     }
 
     @Override
@@ -28,13 +35,5 @@ public class ProviderItemModel extends ItemModelProvider {
         simpleItem(Items.MITHRIL_INGOT.get(), modLoc("item/mithril_ingot"));
         simpleItem(Items.ADAMANTINE_INGOT.get(), modLoc("item/adamantine_ingot"));
         simpleItem(Items.AQUAMARINE.get(), modLoc("item/aquamarine"));
-    }
-
-    private ItemModelBuilder simpleItem(Item item, ResourceLocation texture) {
-        return singleTexture(item.getRegistryName().getPath(), mcLoc("generated"), "layer0", texture);
-    }
-
-    private ItemModelBuilder simpleBlockItem(Item blockItem, ResourceLocation texture) {
-        return cubeAll(blockItem.getRegistryName().getPath(), texture);
     }
 }
