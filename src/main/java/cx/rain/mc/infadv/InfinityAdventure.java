@@ -1,8 +1,8 @@
 package cx.rain.mc.infadv;
 
-import cx.rain.mc.infadv.block.BlockItems;
-import cx.rain.mc.infadv.block.Blocks;
-import cx.rain.mc.infadv.item.Items;
+import cx.rain.mc.infadv.block.ModBlockItems;
+import cx.rain.mc.infadv.block.ModBlocks;
+import cx.rain.mc.infadv.item.ModItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -21,9 +21,9 @@ public class InfinityAdventure {
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        new Items(bus);
-        new Blocks(bus);
-        new BlockItems(bus);
+        new ModItems(bus);
+        new ModBlocks(bus);
+        new ModBlockItems(bus);
     }
 
     public static InfinityAdventure getInstance() {

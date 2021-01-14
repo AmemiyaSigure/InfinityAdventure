@@ -1,6 +1,6 @@
 package cx.rain.mc.infadv.group;
 
-import cx.rain.mc.infadv.block.BlockItems;
+import cx.rain.mc.infadv.block.ModBlockItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
@@ -11,6 +11,6 @@ public class GroupOres extends ItemGroup {
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(BlockItems.SILVER_ORE.get());
+        return new ItemStack(ModBlockItems.SILVER_ORE.get());
     }
 }

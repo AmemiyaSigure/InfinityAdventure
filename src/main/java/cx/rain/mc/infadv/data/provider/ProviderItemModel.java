@@ -1,8 +1,8 @@
 package cx.rain.mc.infadv.data.provider;
 
 import cx.rain.mc.infadv.InfinityAdventure;
-import cx.rain.mc.infadv.block.BlockItems;
-import cx.rain.mc.infadv.item.Items;
+import cx.rain.mc.infadv.block.ModBlockItems;
+import cx.rain.mc.infadv.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
@@ -24,16 +24,16 @@ public class ProviderItemModel extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleBlockItem(BlockItems.SILVER_ORE.get(), modLoc("block/silver_ore"));
-        simpleBlockItem(BlockItems.RUBY_ORE.get(), modLoc("block/ruby_ore"));
-        simpleBlockItem(BlockItems.MITHRIL_ORE.get(), modLoc("block/mithril_ore"));
-        simpleBlockItem(BlockItems.ADAMANTINE_ORE.get(), modLoc("block/adamantine_ore"));
-        simpleBlockItem(BlockItems.AQUAMARINE_ORE.get(), modLoc("block/aquamarine_ore"));
+        simpleBlockItem(ModBlockItems.SILVER_ORE.get(), modLoc("block/silver_ore"));
+        simpleBlockItem(ModBlockItems.RUBY_ORE.get(), modLoc("block/ruby_ore"));
+        simpleBlockItem(ModBlockItems.MITHRIL_ORE.get(), modLoc("block/mithril_ore"));
+        simpleBlockItem(ModBlockItems.ADAMANTINE_ORE.get(), modLoc("block/adamantine_ore"));
+        simpleBlockItem(ModBlockItems.AQUAMARINE_ORE.get(), modLoc("block/aquamarine_ore"));
 
-        simpleItem(Items.SILVER_INGOT.get(), modLoc("item/silver_ingot"));
-        simpleItem(Items.RUBY.get(), modLoc("item/ruby"));
-        simpleItem(Items.MITHRIL_INGOT.get(), modLoc("item/mithril_ingot"));
-        simpleItem(Items.ADAMANTINE_INGOT.get(), modLoc("item/adamantine_ingot"));
-        simpleItem(Items.AQUAMARINE.get(), modLoc("item/aquamarine"));
+        simpleItem(ModItems.SILVER_INGOT.get(), modLoc("item/silver_ingot"));
+        simpleItem(ModItems.RUBY.get(), modLoc("item/ruby"));
+        simpleItem(ModItems.MITHRIL_INGOT.get(), modLoc("item/mithril_ingot"));
+        simpleItem(ModItems.ADAMANTINE_INGOT.get(), modLoc("item/adamantine_ingot"));
+        simpleItem(ModItems.AQUAMARINE.get(), modLoc("item/aquamarine"));
     }
 }

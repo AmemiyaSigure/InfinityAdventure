@@ -1,7 +1,7 @@
 package cx.rain.mc.infadv.data.provider;
 
 import cx.rain.mc.infadv.InfinityAdventure;
-import cx.rain.mc.infadv.block.Blocks;
+import cx.rain.mc.infadv.block.ModBlocks;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -13,10 +13,10 @@ public class ProviderBlockState extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        simpleBlock(Blocks.SILVER_ORE.get());
-        simpleBlock(Blocks.RUBY_ORE.get());
-        simpleBlock(Blocks.MITHRIL_ORE.get());
-        simpleBlock(Blocks.ADAMANTINE_ORE.get());
-        simpleBlock(Blocks.AQUAMARINE_ORE.get());
+        simpleBlock(ModBlocks.SILVER_ORE.get());
+        simpleBlock(ModBlocks.RUBY_ORE.get());
+        simpleBlock(ModBlocks.MITHRIL_ORE.get());
+        simpleBlock(ModBlocks.ADAMANTINE_ORE.get());
+        simpleBlock(ModBlocks.AQUAMARINE_ORE.get());
     }
 }
