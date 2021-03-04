@@ -25,7 +25,11 @@ public class EventBiomeLoading {
 
         if (BiomeDictionary.hasType(biome, BiomeDictionary.Type.OVERWORLD)) {
             if (BiomeDictionary.hasType(biome, BiomeDictionary.Type.MOUNTAIN)) {
-                gen.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, ModFeatures.ORE_AQUAMARINE);
+                gen.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, ModFeatures.ORE_AQUAMARINE_MOUNTAIN);
+            }
+
+            if (BiomeDictionary.hasType(biome, BiomeDictionary.Type.OCEAN)) {
+                gen.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, ModFeatures.ORE_AQUAMARINE_OCEAN);
             }
         }
     }
