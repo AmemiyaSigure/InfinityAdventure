@@ -28,9 +28,9 @@ public class ModItems {
     public static final RegistryObject<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot", () -> new Item(new Item.Properties().group(ModGroups.ORES).setNoRepair()));
     public static final RegistryObject<Item> AQUAMARINE = ITEMS.register("aquamarine", () -> new Item(new Item.Properties().group(ModGroups.ORES).setNoRepair()));
 
-    public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword", () -> new ItemSwordBase(ModTiers.SILVER, 3, -1.6f, EnumSet.of(ItemFeature.IS_SACRED)));
+    public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword", () -> new ItemSwordBase(ModTiers.SILVER, 3, -2.4f, EnumSet.of(ItemFeature.IS_SACRED)));
 
-    public static final RegistryObject<Item> MITHRIL_SWORD = ITEMS.register("mithril_sword", () -> new ItemSwordBase(ModTiers.MITHRIL, 4, -1.4f, EnumSet.noneOf(ItemFeature.class)));
+    public static final RegistryObject<Item> MITHRIL_SWORD = ITEMS.register("mithril_sword", () -> new ItemSwordBase(ModTiers.MITHRIL, 3, -1.4f, EnumSet.of(ItemFeature.IS_SACRED)));
 
-    public static final RegistryObject<Item> ADAMANTINE_SWORD = ITEMS.register("adamantine_sword", () -> new ItemSwordBase(ModTiers.ADAMANTINE, 5, -3.9f, EnumSet.of(ItemFeature.ANTI_CORRUPTION)));
+    public static final RegistryObject<Item> ADAMANTINE_SWORD = ITEMS.register("adamantine_sword", () -> new ItemSwordBase(ModTiers.ADAMANTINE, 4, -3.9f, EnumSet.of(ItemFeature.ANTI_CORRUPTION)));
 }
