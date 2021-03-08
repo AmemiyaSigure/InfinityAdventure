@@ -5,9 +5,13 @@
   "block.infadv.ruby_ore": "\u7EA2\u5B9D\u77F3\u77FF\u77F3",
   "block.infadv.silver_ore": "\u94F6\u77FF\u77F3",
   "item.infadv.adamantine_ingot": "\u7CBE\u91D1\u952D",
+  "item.infadv.adamantine_sword": "\u7CBE\u91D1\u5251",
   "item.infadv.aquamarine": "\u6D77\u84DD\u5B9D\u77F3",
   "item.infadv.mithril_ingot": "\u79D8\u94F6\u952D",
+  "item.infadv.mithril_sword": "\u79D8\u94F6\u5251",
   "item.infadv.ruby": "\u7EA2\u5B9D\u77F3",
   "item.infadv.silver_ingot": "\u94F6\u952D",
+  "item.infadv.silver_sword": "\u94F6\u5251",
+  "itemGroup.infadv_combat_and_tools": "\u65E0\u5C3D\u5192\u9669 | \u6B66\u5668\u88C5\u5907\u548C\u5DE5\u5177",
   "itemGroup.infadv_ores": "\u65E0\u5C3D\u5192\u9669 | \u77FF\u77F3"
 }

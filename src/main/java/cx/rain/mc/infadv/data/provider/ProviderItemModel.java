@@ -2,24 +2,14 @@ package cx.rain.mc.infadv.data.provider;
 
 import cx.rain.mc.infadv.InfinityAdventure;
 import cx.rain.mc.infadv.block.ModBlockItems;
+import cx.rain.mc.infadv.data.provider.base.ProviderItemModelBase;
 import cx.rain.mc.infadv.item.ModItems;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.item.Item;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
-public class ProviderItemModel extends ItemModelProvider {
+public class ProviderItemModel extends ProviderItemModelBase {
     public ProviderItemModel(DataGenerator generator, ExistingFileHelper existingHelper) {
         super(generator, InfinityAdventure.MODID, existingHelper);
-    }
-
-    protected void simpleItem(Item item, ResourceLocation texture) {
-        singleTexture(item.getRegistryName().getPath(), mcLoc("generated"), "layer0", texture);
-    }
-
-    protected void simpleBlockItem(Item blockItem, ResourceLocation texture) {
-        cubeAll(blockItem.getRegistryName().getPath(), texture);
     }
 
     @Override
@@ -35,5 +25,9 @@ public class ProviderItemModel extends ItemModelProvider {
         simpleItem(ModItems.MITHRIL_INGOT.get(), modLoc("item/mithril_ingot"));
         simpleItem(ModItems.ADAMANTINE_INGOT.get(), modLoc("item/adamantine_ingot"));
         simpleItem(ModItems.AQUAMARINE.get(), modLoc("item/aquamarine"));
+
+        handheld(ModItems.SILVER_SWORD.get(), modLoc("item/silver_sword"));
+        handheld(ModItems.MITHRIL_SWORD.get(), modLoc("item/mithril_sword"));
+        handheld(ModItems.ADAMANTINE_SWORD.get(), modLoc("item/adamantine_sword"));
     }
 }

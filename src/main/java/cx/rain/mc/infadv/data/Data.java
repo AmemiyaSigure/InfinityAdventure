@@ -4,6 +4,9 @@ import cx.rain.mc.infadv.InfinityAdventure;
 import cx.rain.mc.infadv.data.provider.ProviderBlockState;
 import cx.rain.mc.infadv.data.provider.ProviderItemModel;
 import cx.rain.mc.infadv.data.provider.language.ProviderLanguageZHCN;
+import cx.rain.mc.infadv.data.provider.recipe.ProviderCookingRecipe;
+import cx.rain.mc.infadv.data.provider.recipe.ProviderShapedRecipe;
+import cx.rain.mc.infadv.data.provider.recipe.ProviderShapelessRecipe;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -23,6 +26,9 @@ public class Data {
         }
 
         if (event.includeServer()) {
+            generator.addProvider(new ProviderShapedRecipe(generator));
+            generator.addProvider(new ProviderShapelessRecipe(generator));
+            generator.addProvider(new ProviderCookingRecipe(generator));
         }
 
         generator.addProvider(new ProviderLanguageZHCN(generator));

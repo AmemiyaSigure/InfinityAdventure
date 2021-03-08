@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "S",
+    "/"
+  ],
+  "key": {
+    "S": {
+      "item": "infadv:silver_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "infadv:silver_sword"
+  }
+}

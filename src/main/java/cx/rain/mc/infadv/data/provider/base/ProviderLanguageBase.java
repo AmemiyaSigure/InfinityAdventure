@@ -1,11 +1,11 @@
-package cx.rain.mc.infadv.data.provider.language;
+package cx.rain.mc.infadv.data.provider.base;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.data.LanguageProvider;
 
-public abstract class ProviderLanguages extends LanguageProvider {
-    public ProviderLanguages(DataGenerator gen, String modid, String locale) {
+public abstract class ProviderLanguageBase extends LanguageProvider {
+    public ProviderLanguageBase(DataGenerator gen, String modid, String locale) {
         super(gen, modid, locale);
     }
 

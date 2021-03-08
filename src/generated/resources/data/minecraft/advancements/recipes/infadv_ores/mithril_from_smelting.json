@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:mithril_from_smelting"
+    ]
+  },
+  "criteria": {
+    "get_mithril_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infadv:mithril_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:mithril_from_smelting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_mithril_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "infadv:mithril_ore"
+  },
+  "result": "infadv:mithril_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "M",
+    "/"
+  ],
+  "key": {
+    "M": {
+      "item": "infadv:mithril_sword"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "infadv:mithril_sword"
+  }
+}

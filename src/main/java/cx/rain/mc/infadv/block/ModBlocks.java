@@ -2,7 +2,6 @@ package cx.rain.mc.infadv.block;
 
 import cx.rain.mc.infadv.InfinityAdventure;
 import cx.rain.mc.infadv.block.base.OreBlockBase;
-import cx.rain.mc.infadv.enumerate.OreType;
 import net.minecraft.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -18,9 +17,9 @@ public class ModBlocks {
     }
 
     // Blocks below here.
-    public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore", () -> new OreBlockBase(OreType.Silver, 2, 3.0f, 3.0f));
-    public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", () -> new OreBlockBase(OreType.Ruby, 2, 3.0f, 3.0f));
-    public static final RegistryObject<Block> MITHRIL_ORE = BLOCKS.register("mithril_ore", () -> new OreBlockBase(OreType.Mithril, 3, 3.0f, 5.0f));
-    public static final RegistryObject<Block> ADAMANTINE_ORE = BLOCKS.register("adamantine_ore", () -> new OreBlockBase(OreType.Adamantine, 3, 3.0f, 6.0f));
-    public static final RegistryObject<Block> AQUAMARINE_ORE = BLOCKS.register("aquamarine_ore", () -> new OreBlockBase(OreType.Aquamarine, 1, 3.0f, 2.0f));
+    public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore", () -> new OreBlockBase(2, 3.0f, 3.0f));
+    public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", () -> new OreBlockBase(2, 3.0f, 3.0f));
+    public static final RegistryObject<Block> MITHRIL_ORE = BLOCKS.register("mithril_ore", () -> new OreBlockBase(3, 3.0f, 5.0f));
+    public static final RegistryObject<Block> ADAMANTINE_ORE = BLOCKS.register("adamantine_ore", () -> new OreBlockBase(3, 3.0f, 6.0f));
+    public static final RegistryObject<Block> AQUAMARINE_ORE = BLOCKS.register("aquamarine_ore", () -> new OreBlockBase(1, 3.0f, 2.0f));
 }
