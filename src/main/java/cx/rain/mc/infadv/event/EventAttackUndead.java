@@ -1,7 +1,7 @@
 package cx.rain.mc.infadv.event;
 
 import cx.rain.mc.infadv.InfinityAdventure;
-import cx.rain.mc.infadv.item.base.IFeatured;
+import cx.rain.mc.infadv.utility.IFeatured;
 import cx.rain.mc.infadv.utility.enums.ItemFeature;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraftforge.event.entity.living.LivingDamageEvent;

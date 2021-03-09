@@ -1,4 +1,4 @@
-package cx.rain.mc.infadv.item.base;
+package cx.rain.mc.infadv.utility;
 
 import cx.rain.mc.infadv.utility.enums.ItemFeature;
 

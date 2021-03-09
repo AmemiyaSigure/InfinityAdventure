@@ -17,6 +17,13 @@ public class ProviderLanguageZHCN extends ProviderLanguageBase {
         addItemGroups();
         addBlocks();
         addItems();
+        addTooltips();
+    }
+
+    private void addTooltips() {
+        addTooltip(ModItems.SILVER_SWORD, 1, "银质的长剑，很适合用来斩杀亡灵。");
+        addTooltip(ModItems.MITHRIL_SWORD, 1, "秘银的长剑，矮人铸剑师的杰作。");
+        addTooltip(ModItems.ADAMANTINE_SWORD, 1, "精金的长剑，太重了你挥不动。");
     }
 
     private void addItemGroups() {
