@@ -27,7 +27,21 @@ public class ProviderItemModel extends ProviderItemModelBase {
         simpleItem(ModItems.AQUAMARINE.get(), modLoc("item/aquamarine"));
 
         handheld(ModItems.SILVER_SWORD.get(), modLoc("item/silver_sword"));
+        handheld(ModItems.SILVER_PICKAXE.get(), modLoc("item/silver_pickaxe"));
+        handheld(ModItems.SILVER_AXE.get(), modLoc("item/silver_axe"));
+        handheld(ModItems.SILVER_SHOVEL.get(), modLoc("item/silver_shovel"));
+        handheld(ModItems.SILVER_HOE.get(), modLoc("item/silver_hoe"));
+
         handheld(ModItems.MITHRIL_SWORD.get(), modLoc("item/mithril_sword"));
+        handheld(ModItems.MITHRIL_PICKAXE.get(), modLoc("item/mithril_pickaxe"));
+        handheld(ModItems.MITHRIL_AXE.get(), modLoc("item/mithril_axe"));
+        handheld(ModItems.MITHRIL_SHOVEL.get(), modLoc("item/mithril_shovel"));
+        handheld(ModItems.MITHRIL_HOE.get(), modLoc("item/mithril_hoe"));
+
         handheld(ModItems.ADAMANTINE_SWORD.get(), modLoc("item/adamantine_sword"));
+        handheld(ModItems.ADAMANTINE_PICKAXE.get(), modLoc("item/adamantine_pickaxe"));
+        handheld(ModItems.ADAMANTINE_AXE.get(), modLoc("item/adamantine_axe"));
+        handheld(ModItems.ADAMANTINE_SHOVEL.get(), modLoc("item/adamantine_shovel"));
+        handheld(ModItems.ADAMANTINE_HOE.get(), modLoc("item/adamantine_hoe"));
     }
 }

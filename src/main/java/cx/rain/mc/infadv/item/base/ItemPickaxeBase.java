@@ -7,22 +7,25 @@ import cx.rain.mc.infadv.utility.enums.ItemFeature;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
-import net.minecraft.util.text.*;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
 import java.util.EnumSet;
 import java.util.List;
 
-public class ItemSwordBase extends SwordItem implements IFeatured {
-    private EnumSet<ItemFeature> features;
+public class ItemPickaxeBase extends PickaxeItem implements IFeatured {
     private int tooltipLines;
+    private EnumSet<ItemFeature> features;
 
-    public ItemSwordBase(IItemTier tier, int attackDamageIn, float attackSpeedIn,
-                         EnumSet<ItemFeature> featuresIn, int tooltipLinesIn) {
+    public ItemPickaxeBase(IItemTier tier, int attackDamageIn, float attackSpeedIn,
+                           EnumSet<ItemFeature> featuresIn, int tooltipLinesIn) {
         super(tier, attackDamageIn, attackSpeedIn,
                 new Properties().group(ModGroups.COMBAT_AND_TOOLS));
+
         features = featuresIn;
         tooltipLines = tooltipLinesIn;
     }

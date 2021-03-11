@@ -35,6 +35,8 @@ minecraft {
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'info'
 
+            args '--mixin.config=mixins.infadv.json'
+
             mods {
                 infadv {
                     source sourceSets.main
@@ -50,6 +52,8 @@ minecraft {
 
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'info'
+
+            args '--mixin.config=mixins.infadv.json'
 
             mods {
                 infadv {
@@ -68,7 +72,7 @@ minecraft {
             property 'forge.logging.console.level', 'info'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'infadv', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'infadv', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/'), '--mixin.config=mixins.infadv.json'
 
             mods {
                 infadv {

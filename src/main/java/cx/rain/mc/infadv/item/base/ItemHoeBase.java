@@ -5,22 +5,24 @@ import cx.rain.mc.infadv.group.ModGroups;
 import cx.rain.mc.infadv.utility.IFeatured;
 import cx.rain.mc.infadv.utility.enums.ItemFeature;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.item.HoeItem;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
-import net.minecraft.util.text.*;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
 import java.util.EnumSet;
 import java.util.List;
 
-public class ItemSwordBase extends SwordItem implements IFeatured {
+public class ItemHoeBase extends HoeItem implements IFeatured {
     private EnumSet<ItemFeature> features;
     private int tooltipLines;
 
-    public ItemSwordBase(IItemTier tier, int attackDamageIn, float attackSpeedIn,
-                         EnumSet<ItemFeature> featuresIn, int tooltipLinesIn) {
+    public ItemHoeBase(IItemTier tier, int attackDamageIn, float attackSpeedIn,
+                       EnumSet<ItemFeature> featuresIn, int tooltipLinesIn) {
         super(tier, attackDamageIn, attackSpeedIn,
                 new Properties().group(ModGroups.COMBAT_AND_TOOLS));
         features = featuresIn;
