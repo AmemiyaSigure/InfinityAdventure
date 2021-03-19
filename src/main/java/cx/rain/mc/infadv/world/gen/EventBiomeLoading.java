@@ -24,6 +24,7 @@ public class EventBiomeLoading {
                         "Who registered null name biome, naming criticism!"));
 
         if (BiomeDictionary.hasType(biome, BiomeDictionary.Type.OVERWORLD)) {
+            gen.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, ModFeatures.ORE_RUBY);
             gen.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, ModFeatures.ORE_SILVER);
             gen.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, ModFeatures.ORE_MITHRIL);
             gen.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, ModFeatures.ORE_ADAMANTINE);
